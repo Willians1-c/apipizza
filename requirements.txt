@@ -1,0 +1,7 @@
+fastapi>=0.115
+uvicorn[standard]>=0.30
+sqlalchemy>=2.0
+pymysql>=1.1
+cryptography>=42        # necesario para MySQL 8 (caching_sha2_password)
+pydantic-settings>=2.4
+tzdata                  # zona horaria en Windows
